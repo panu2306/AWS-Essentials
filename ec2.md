@@ -1,0 +1,4 @@
+# AWS Regions & Availibility Zones: 
+Amazon EC2 is hosted in multiple locations world-wide. These locations are composed of regions & each region has multiple availability zones which are physical data centres. For example, `us-east-1` is the region & `us-east-1a` is the availibility zone for that region. Each region can have multiple availibility zones. To differentiante one availibility zone from other AWS can use letters from `a-z` for identifying availibility zones. 
+
+Another one concept is local zone. Local zones are the regions which are close to the user. Always select region that is closer to you for faster access to your EC2 instance. Also, note that not all the regions support local zones. We need to check if that region supports for local zones. For more information please head to [available regions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions).
